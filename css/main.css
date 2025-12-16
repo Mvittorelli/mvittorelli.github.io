@@ -6,21 +6,46 @@ html {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 50px;
+  padding: 10vh 45vh;
   font-family: "Noto Serif", serif;
   color: rgb(237, 204, 247);
+  background-image: url(/assets/wallpaper.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 img {
   image-rendering: pixelated;
 }
 
+header,
+main,
+footer {
+  background-color: rgb(39, 11, 42);
+}
+
+header {
+  border-radius: 8px 8px 0 0;
+}
+
+footer {
+  border-radius: 0 0 8px 8px;
+}
+
 header {
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px dashed pink;
 }
 
 main {
-  border: 3px dashed pink;
+  width: 100%;
+  overflow-wrap: break-word;
 }
 
 nav {
@@ -39,4 +64,21 @@ nav a {
 
 nav a:hover {
   color: #ff46b3;
+}
+
+h1,
+h2,
+h3 {
+  text-shadow: #ff46b3 0 0 10px;
+}
+
+p, li{
+  text-shadow: #ffc5e7 0 0 10px;
+
+}
+
+h3 {
+  color: #ff46b3;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
