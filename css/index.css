@@ -1,0 +1,14 @@
+ul {
+  font-size: small;
+}
+
+.indexQuickPresentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: rgb(237, 204, 247) dashed 2px;
+  border-bottom: rgb(237, 204, 247) dashed 2px;
+  width: fit-content;
+  padding: 15px;
+}
