@@ -73,13 +73,17 @@ h3 {
   text-shadow: #ff46b3 0 0 10px;
 }
 
-p, li{
+p,
+li {
   text-shadow: #ffc5e7 0 0 10px;
-
 }
 
 h3 {
   color: #ff46b3;
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+
+.noBullet {
+  list-style: none;
 }
