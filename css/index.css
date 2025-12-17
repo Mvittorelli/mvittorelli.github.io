@@ -37,3 +37,19 @@ ul {
   grid-column: 4 / -1;
   grid-row: 1 / span 1;
 }
+
+.musicLabel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  text-align: center;
+}
+
+.musicLabel img {
+  height: 8vh;
+}
+
+audio {
+  width: px;
+}
