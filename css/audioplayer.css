@@ -1,0 +1,18 @@
+.audioPlayer {
+  background-color: rgb(0, 0, 0);
+}
+
+.audioTop {
+  padding: 15px;
+  background-image: url(https://pomf2.lain.la/f/gg9wivu5.gif);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-shadow: black 0 0 10px;
+}
+
+.audioTop img {
+  height: 25px;
+}

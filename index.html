@@ -6,6 +6,7 @@
 
     <link rel="stylesheet" href="/css/main.css" />
     <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="/css/audioplayer.css" />
 
     <title>My portfolio</title>
   </head>
@@ -47,18 +48,24 @@
           <img src="/assets/88x31gifs/banner15.gif" alt="teto world domination" />
         </div>
         <hr />
+
         <h4>Tu veux connaitre mes goûts musicaux?</h4>
-        <ul class="noBullet">
-          <li>
-            <div class="musicLabel">
-              <img src="/assets/xoxoImg.jpg" alt="XOXO" />
-              <p>XOXO Kisses hugs - 6arelyhuman</p>
-            </div>
-            <audio controls>
-              <source src="/assets/audio/xoxo.mp3" type="audio/mp3" />
-            </audio>
-          </li>
-        </ul>
+        <div class="audioPlayer">
+          <div class="audioTop">
+            <img src="..." alt="artist pfp" />
+            <hr>
+            <h4 id="audioTitle">Title</h4>
+            <h4 id="audioArtist">Artist</h4>
+          </div>
+          <div id="playlist"></div>
+          <div id="controls">
+            <button id="playPauseBtn"><span id="playIcon">&#9658;</span><span id="pauseIcon">&#10074;&#10074;</span></button>
+            <input type="range" min="0" max="" step="any" value="" id="seekBar" />
+            <output for="seekBar" id="currentTime">0:00</output>
+            <output for="seekBar" id="duration">0:00</output>
+            <button id="muteBtn"><span>&#128263;</span></button>
+          </div>
+        </div>
       </section>
       <section class="indexWelc">
         <h3>* ~ Bienvenue sur mon portfolio ~ *</h3>
@@ -87,5 +94,7 @@
       </section>
     </main>
     <footer></footer>
+
+    <script src="/js/audioplayer.js"></script>
   </body>
 </html>
