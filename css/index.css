@@ -26,6 +26,15 @@ ul {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.indexQuickPresentation hr {
+  width: 80%;
+  border: none;
+  height: 3px;
+  background-color: rgba(204, 162, 244, 0.231);
+  border-radius: 3px;
+  margin: 15px 0;
+}
+
 .indexPfp {
   padding: 15px;
 }
@@ -38,18 +47,21 @@ ul {
   grid-row: 1 / span 1;
 }
 
-.musicLabel {
+.indexWelc ul {
   display: flex;
-  justify-content: center;
   align-items: center;
-  gap: 5%;
-  text-align: center;
+  justify-content: space-around;
 }
 
-.musicLabel img {
-  height: 8vh;
+.indexWelc ul div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
 }
 
-audio {
-  width: px;
-}
+.indexWelc ul div li {
+  display: flex;
+  gap: 5px;
+  justify-content: flex-start;
+  justify-content: space-between;}

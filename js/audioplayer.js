@@ -5,6 +5,30 @@ const musics = [
     audioSrc: "https://pomf2.lain.la/f/8pgtm19n.mp3",
     cover: "https://pomf2.lain.la/f/twpbd5yr.jpg",
   },
+  {
+    artist: "Caramella Girls",
+    title: "Caramelldansen",
+    audioSrc: "https://pomf2.lain.la/f/n2gf691i.mp3",
+    cover: "https://pomf2.lain.la/f/oqofcvjx.jpg",
+  },
+  {
+    artist: "lexi xoxo",
+    title: "PARTY GIRLS",
+    audioSrc: "https://pomf2.lain.la/f/fqlwxv4.mp3",
+    cover: "https://pomf2.lain.la/f/6npuerak.jpg",
+  },
+  {
+    artist: "disoc8",
+    title: "ur the one i want",
+    audioSrc: "https://pomf2.lain.la/f/jvk5zic2.mp3",
+    cover: "https://pomf2.lain.la/f/9cxuzrax.jpg",
+  },
+  {
+    artist: "creepP",
+    title: "She's Homeless - Speed Up Version",
+    audioSrc: "https://pomf2.lain.la/f/o24wrjaa.mp3",
+    cover: "https://pomf2.lain.la/f/1i08xnpr.jpg",
+  },
 ];
 
 const audio = new Audio();

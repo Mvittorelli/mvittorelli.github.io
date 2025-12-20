@@ -3,16 +3,43 @@
 }
 
 .audioTop {
+  font-size: 70%;
   padding: 15px;
   background-image: url(https://pomf2.lain.la/f/gg9wivu5.gif);
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 5px;
   color: black;
   text-shadow: black 0 0 10px;
 }
 
 .audioTop img {
   height: 25px;
+}
+
+#playPauseBtn {
+  color: #fff;
+}
+
+#muteBtn,
+#playPauseBtn {
+  border: none;
+  background: none;
+  padding: 10px;
+}
+
+#seekBar {
+  border: none;
+  accent-color: rgb(236, 249, 93);
+}
+
+#playlist button {
+  border: 1px white solid;
+  width: 90%;
+  margin: 1%;
+  background-color: transparent;
+  color: #fff;
+  padding: 4px;
 }
