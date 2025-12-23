@@ -1,0 +1,16 @@
+.contact {
+  background-color: rgba(47, 47, 47, 0.678);
+  text-shadow: none;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+main {
+  
+  text-align: center;
+}
+
+li {
+  padding: 5px;
+  margin-top: 15px;
+}

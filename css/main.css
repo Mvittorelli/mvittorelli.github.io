@@ -47,6 +47,7 @@ header {
 main {
   width: 100%;
   overflow-wrap: break-word;
+  display: grid;
 }
 
 button {

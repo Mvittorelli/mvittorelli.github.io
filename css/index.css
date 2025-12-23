@@ -1,5 +1,4 @@
 main {
-  display: grid;
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(3, 1fr);
 }
@@ -17,7 +16,7 @@ ul {
   flex-direction: column;
   align-items: center;
   border-right: rgb(237, 204, 247) dashed 2px;
-  border-left: rgb(237, 204, 247) dashed 2px;
+  border-left  rgb(237, 204, 247) dashed 2px;
   border-bottom: rgb(237, 204, 247) dashed 2px;
   width: 100%;
 }
