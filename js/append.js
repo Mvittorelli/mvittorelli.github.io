@@ -97,6 +97,8 @@ const contact = `<div id="contact">
         </div>`;
 
 const left = document.getElementById("left");
+left.innerHTML = main;
+
 
 const homeBtn = document.getElementById("homeBtn");
 const contactBtn = document.getElementById("contactBtn");

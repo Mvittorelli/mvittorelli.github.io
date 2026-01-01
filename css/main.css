@@ -63,20 +63,23 @@ button {
 }
 
 nav {
+  padding: 1%;
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-nav a {
+nav button {
+  background-color: #ff46b21f;
   color: #ea8af7;
   text-decoration: none;
-  padding: 5px;
+  /* border: none; */
+  padding: 10px;
   text-shadow: #ff46b3 0 0 10px;
 }
 
-nav a:hover {
+nav button:hover {
   color: #ff46b3;
 }
 
