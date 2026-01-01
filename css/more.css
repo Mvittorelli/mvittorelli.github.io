@@ -1,0 +1,9 @@
+.sportGallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  width: fit-content;
+}
+.sportGallery img {
+  height: 200px;
+  border-radius: 2px;

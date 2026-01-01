@@ -1,5 +1,5 @@
 const main = `<section class="indexWelc">
-          <h3>* ~ Bienvenue sur mon portfolio ~ *</h3>
+          <h2>* ~ Bienvenue sur mon portfolio ~ *</h2>
           <p>
             <span class="txtBold">Ça te plait ? </span> Normal, ça me ressemble,
             aller viens en apprendre un peu plus sur moi. <br />
@@ -95,13 +95,41 @@ const contact = `<div id="contact">
             <img src="/assets/banner/bakaX3.gif" alt="triple baka" />
           </div>
         </div>`;
+const more = `<section class="moreWelc">
+          <h3>° ~ Tu veux savoir plus de choses sur moi ?</h3>
+          <p>
+            <span class="bold">Bien on va commencer par mes passions</span>.
+          </p>
+          <h3>Fou de sport</h3>
+          <p>
+            Je fais pas mal de sport, que ce soit de l'escalade en bloc, du
+            skate, du street workout, ou même du vélo, je ne cesse de Bouger.
+          </p>
+          <div class="sportGallery">
+            <img
+              draggable="false"
+              src="https://pomf2.lain.la/f/csarsmsv.png"
+              alt="mes 2 skates"
+            />
+            <img
+              draggable="false"
+              src="https://pomf2.lain.la/f/1w1qtfqe.png"
+              alt="la ou je grimpe"
+            />
+            <img
+              draggable="false"
+              src="https://pomf2.lain.la/f/3o33nslg.png"
+              alt="vielle photo de moi"
+            />
+          </div>
+        </section>`;
 
 const left = document.getElementById("left");
 left.innerHTML = main;
 
-
 const homeBtn = document.getElementById("homeBtn");
 const contactBtn = document.getElementById("contactBtn");
+const infoBtn = document.getElementById("infoBtn");
 
 homeBtn.addEventListener("click", () => {
   left.innerHTML = main;
@@ -111,4 +139,6 @@ contactBtn.addEventListener("click", () => {
   left.innerHTML = contact;
 });
 
-// page buttons
+infoBtn.addEventListener("click", () => {
+  left.innerHTML = more;
+});
