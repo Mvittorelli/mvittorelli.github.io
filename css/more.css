@@ -7,3 +7,12 @@
 .sportGallery img {
   height: 200px;
   border-radius: 2px;
+}
+
+.moreWelc{
+  padding: 15px;
+  border-right: 3px dashed pink;
+  border-bottom: 3px dashed pink;
+  grid-row: 1 / span 3;
+
+}
