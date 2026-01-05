@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/css/audioplayer.css" />
     <link rel="stylesheet" href="/css/contact.css" />
     <link rel="stylesheet" href="/css/more.css" />
+    <link rel="stylesheet" href="/css/project.css">
 
     <title>My portfolio</title>
   </head>
@@ -24,11 +25,7 @@
     </header>
     <main>
       <section class="indexQuickPresentation">
-        <img
-          src="/assets/me.jpg"
-          alt="Coucou c'est moi (non)"
-          class="indexPfp"
-        />
+        <img src="/assets/me.jpg" alt="Coucou c'est moi (non)" class="indexPfp" />
         <ul class="noBullet">
           <li>Mathieu Vittorelli</li>
           <li>18 ans</li>
@@ -40,29 +37,20 @@
         <hr />
         <div class="indexQuickPresentationBanners">
           <img src="/assets/88x31gifs/banner3.gif" alt="Have a smile" />
-          <img
-            src="/assets/88x31gifs/banner8.gif"
-            alt="This site is miku approved"
-          />
+          <img src="/assets/88x31gifs/banner8.gif" alt="This site is miku approved" />
           <img src="/assets/88x31gifs/banner4.gif" alt="miaow" />
           <img src="/assets/88x31gifs/banner9.gif" alt="punchy" />
           <img src="/assets/88x31gifs/banner5.gif" alt="JS" />
           <img src="/assets/88x31gifs/banner6.gif" alt="aing apply" />
           <img src="/assets/88x31gifs/banner7.gif" alt="made with windows" />
           <img src="/assets/88x31gifs/banner1.gif" alt="evangelion" />
-          <img
-            src="/assets/88x31gifs/banner2.gif"
-            alt="THIS WEBSITE DOESNT CONTAIN HENTAI"
-          />
+          <img src="/assets/88x31gifs/banner2.gif" alt="THIS WEBSITE DOESNT CONTAIN HENTAI" />
           <img src="/assets/88x31gifs/banner10.gif" alt="smoke" />
           <img src="/assets/88x31gifs/banner11.gif" alt="xhtml" />
           <img src="/assets/88x31gifs/banner12.gif" alt="forever online" />
           <img src="/assets/88x31gifs/banner13.gif" alt="TOR" />
           <img src="/assets/88x31gifs/banner14.gif" alt="MIKUBEAM" />
-          <img
-            src="/assets/88x31gifs/banner15.gif"
-            alt="teto world domination"
-          />
+          <img src="/assets/88x31gifs/banner15.gif" alt="teto world domination" />
         </div>
 
         <hr />
@@ -77,18 +65,8 @@
           </div>
           <div id="playlist"></div>
           <div id="controls">
-            <button id="playPauseBtn">
-              <span id="playIcon">&#9658;</span
-              ><span id="pauseIcon">&#10074;&#10074;</span>
-            </button>
-            <input
-              type="range"
-              min="0"
-              max=""
-              step="any"
-              value=""
-              id="seekBar"
-            />
+            <button id="playPauseBtn"><span id="playIcon">&#9658;</span><span id="pauseIcon">&#10074;&#10074;</span></button>
+            <input type="range" min="0" max="" step="any" value="" id="seekBar" />
             <output for="seekBar" id="currentTime">0:00</output>
             <output for="seekBar" id="duration">0:00</output>
             <button id="muteBtn"><span>🔊</span></button>
@@ -96,14 +74,13 @@
         </div>
         <hr />
         <h4>Webring</h4>
-        <button onclick="window.location.href = 'https://webring.hackclub.com'">
-          Webring
-        </button>
+        <button onclick="window.location.href = 'https://webring.hackclub.com'">Webring</button>
       </section>
       <section id="left">
-        
+
       </section>
     </main>
+      <script src="/js/project.js"></script>
     <script src="/js/append.js"></script>
     <script src="/js/audioplayer.js"></script>
   </body>

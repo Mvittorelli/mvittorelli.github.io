@@ -148,12 +148,18 @@ const more = `<section class="moreWelc">
           </p>
         </section>`;
 
+const project = `<section id="list">
+  
+
+</section>`;
+
 const left = document.getElementById("left");
 left.innerHTML = main;
 
 const homeBtn = document.getElementById("homeBtn");
 const contactBtn = document.getElementById("contactBtn");
 const infoBtn = document.getElementById("infoBtn");
+const projectBtn = document.getElementById("projectBtn");
 
 homeBtn.addEventListener("click", () => {
   left.innerHTML = main;
@@ -165,4 +171,9 @@ contactBtn.addEventListener("click", () => {
 
 infoBtn.addEventListener("click", () => {
   left.innerHTML = more;
+});
+
+projectBtn.addEventListener("click", () => {
+  left.innerHTML = project;
+  createProject();
 });

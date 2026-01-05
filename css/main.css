@@ -6,6 +6,8 @@
   display: grid;
   grid-template-rows: auto auto;
   width: 100%;
+
+ 
 }
 
 html {
@@ -25,11 +27,11 @@ html {
 }
 
 html {
-  cursor: url(/assets/cursors/cursor.cur), auto;
+  cursor: url(/assets/cursors/cursor.cur), auto !important;
 }
 
-input[type="range"]{
-  cursor: url(/assets/cursors/horizontal.cur), pointer;
+input[type="range"] {
+  cursor: url(/assets/cursors/horizontal.cur), pointer !important;
 }
 
 img {
@@ -65,8 +67,8 @@ main {
   display: grid;
 }
 
-button {
-  cursor: url(/assets/cursors/pointer.cur), pointer;
+button, a {
+  cursor: url(/assets/cursors/pointer.cur), pointer !important;
 }
 
 nav {

@@ -8,8 +8,6 @@ ul {
   text-align: left;
 }
 
-
-
 .indexQuickPresentation {
   text-align: center;
   grid-column: 1 / span 3;
@@ -18,7 +16,7 @@ ul {
   flex-direction: column;
   align-items: center;
   border-right: rgb(237, 204, 247) dashed 2px;
-  border-left:  rgb(237, 204, 247) dashed 2px;
+  border-left: rgb(237, 204, 247) dashed 2px;
   border-bottom: rgb(237, 204, 247) dashed 2px;
   width: 100%;
 }
@@ -92,4 +90,43 @@ ul {
   grid-column: 2;
   border: rgb(237, 204, 247) dashed 2px;
   padding: 20px;
+}
+
+@media screen and (max-width: 880px) {
+  nav {
+    /* display: none; */
+  }
+
+  html {
+    padding: 2vh !important;
+  }
+
+  main   {
+    padding: 0;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  header img {
+    width: 100%;
+    height: 100%;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* overflow: hidden; */
+  }
+  .indexQuickPresentation {
+    grid-column: 1 / span 10;
+    grid-row: 1 / span 2;
+    gap: 0;
+    padding: 1vh;
+  }
+
+  #left {
+    grid-column: 1 / span 10;
+    grid-row: 3 / span 1;
+  }
 }
