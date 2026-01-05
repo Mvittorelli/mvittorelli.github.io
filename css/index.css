@@ -93,15 +93,11 @@ ul {
 }
 
 @media screen and (max-width: 880px) {
-  nav {
-    /* display: none; */
-  }
-
   html {
     padding: 2vh !important;
   }
 
-  main   {
+  main {
     padding: 0;
     grid-template-columns: auto;
     grid-template-rows: repeat(2, 1fr);
