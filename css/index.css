@@ -9,6 +9,10 @@ ul {
 }
 
 .indexQuickPresentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   grid-column: 1 / span 3;
   grid-row: 1 / span 2;
@@ -18,12 +22,16 @@ ul {
   border-right: rgb(237, 204, 247) dashed 2px;
   border-left: rgb(237, 204, 247) dashed 2px;
   border-bottom: rgb(237, 204, 247) dashed 2px;
-  width: 100%;
 }
 
 .indexQuickPresentationBanners {
+  padding: 2px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+.indexQuickPresentationBanners img {
+  width: 95%;
 }
 
 .indexQuickPresentation hr {
@@ -69,6 +77,8 @@ ul {
 
 .indexWelcBanner {
   padding: 10px;
+  display: grid;
+  grid-template-columns: auto 1fr;
 }
 
 .scolaire {
@@ -118,7 +128,6 @@ ul {
     grid-column: 1 / span 10;
     grid-row: 1 / span 2;
     gap: 0;
-    padding: 1vh;
   }
 
   #left {
