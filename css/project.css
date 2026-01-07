@@ -2,13 +2,13 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(auto, auto));
   gap: 75px;
-  padding: 20px
+  padding: 20px;
 }
 
 #list img {
-    height: 150px;
-    width: 150px;
-    box-shadow: #e5beeb 0 0 10px;
+  height: 150px;
+  width: 150px;
+  box-shadow: #e5beeb 0 0 10px;
 }
 
 .projectArt {
@@ -25,7 +25,8 @@
 
 .htmlTag,
 .cssTag,
-.jsTag, .apiTag {
+.jsTag,
+.apiTag {
   border-radius: 1px;
   padding: 3px 5px;
   text-transform: uppercase;
@@ -40,8 +41,8 @@
 .jsTag {
   background-color: #c09b09;
 }
-.apiTag{
-    background-color:#f48fb1;
+.apiTag {
+  background-color: #f48fb1;
 }
 
 .tags {
