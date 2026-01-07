@@ -99,11 +99,17 @@ ul {
   padding: 20px;
 }
 
+#bottom {
+  display: none;
+}
+
 @media screen and (max-width: 880px) {
   html {
     padding: 2vh !important;
   }
-
+  #bottom {
+    display: block;
+  }
   header,
   main {
     padding: 15px 0;
