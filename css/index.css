@@ -16,9 +16,6 @@ ul {
   text-align: center;
   grid-column: 1 / span 3;
   grid-row: 1 / span 2;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   border-right: rgb(237, 204, 247) dashed 2px;
   border-left: rgb(237, 204, 247) dashed 2px;
   border-bottom: rgb(237, 204, 247) dashed 2px;
@@ -107,6 +104,11 @@ ul {
     padding: 2vh !important;
   }
 
+  header,
+  main {
+    padding: 15px 0;
+  }
+
   main {
     padding: 0;
     grid-template-columns: auto;
@@ -115,7 +117,6 @@ ul {
 
   header img {
     width: 100%;
-    height: 100%;
   }
   body {
     display: flex;
@@ -133,5 +134,12 @@ ul {
   #left {
     grid-column: 1 / span 10;
     grid-row: 3 / span 1;
+  }
+
+  .indexWelc ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 }
