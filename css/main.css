@@ -6,8 +6,6 @@
   display: grid;
   grid-template-rows: auto auto;
   width: 100%;
-
- 
 }
 
 html {
@@ -64,7 +62,8 @@ main {
   display: grid;
 }
 
-button, a {
+button,
+a {
   cursor: url(/assets/cursors/pointer.cur), pointer !important;
 }
 
@@ -78,10 +77,14 @@ nav {
 
 nav button {
   background-color: #ff46b21f;
+  padding: 0;
+  border: none;
+}
+nav button a {
+  display: block;
+  padding: 10px;
   color: #ea8af7;
   text-decoration: none;
-  /* border: none; */
-  padding: 10px;
   text-shadow: #ff46b3 0 0 10px;
 }
 
