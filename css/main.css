@@ -24,12 +24,9 @@ html {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-}
-
-html {
   cursor: url(/assets/cursors/cursor.cur), auto !important;
+  scroll-behavior: smooth;
 }
-
 input[type="range"] {
   cursor: url(/assets/cursors/horizontal.cur), pointer !important;
 }

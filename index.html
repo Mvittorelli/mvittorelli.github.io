@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/css/audioplayer.css" />
     <link rel="stylesheet" href="/css/contact.css" />
     <link rel="stylesheet" href="/css/more.css" />
-    <link rel="stylesheet" href="/css/project.css">
+    <link rel="stylesheet" href="/css/project.css" />
 
     <title>My portfolio</title>
   </head>
@@ -17,10 +17,18 @@
     <header>
       <img src="/assets/txt/NameMedium.gif" alt="Mathieu Vittorelli" />
       <nav>
-        <button id="homeBtn">Accueil</button>
-        <button id="projectBtn">Mes Projets</button>
-        <button id="contactBtn">Me Contacter</button>
-        <button id="infoBtn">Plus d'Infos Sur Moi</button>
+        <button id="homeBtn">
+          <a href="#bottom"> Accueil </a>
+        </button>
+        <button id="projectBtn">
+          <a href="#bottom"> Mes Projets </a>
+        </button>
+        <button id="contactBtn">
+          <a href="#bottom"> Me Contacter </a>
+        </button>
+        <button id="infoBtn">
+          <a href="#bottom"> Plus d'Infos Sur Moi </a>
+        </button>
       </nav>
     </header>
     <main>
@@ -76,11 +84,10 @@
         <h4>Webring</h4>
         <button onclick="window.location.href = 'https://webring.hackclub.com'">Webring</button>
       </section>
-      <section id="left">
-
-      </section>
+      <div id="bottom"></div>
+      <section id="left"></section>
     </main>
-      <script src="/js/project.js"></script>
+    <script src="/js/project.js"></script>
     <script src="/js/append.js"></script>
     <script src="/js/audioplayer.js"></script>
   </body>
