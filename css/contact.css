@@ -27,3 +27,15 @@ li {
   justify-items: center;
   align-items: center;
 }
+
+@media screen and (max-width: 880px) {
+  .contactBanners {
+    grid-template-columns: 1fr 1fr;
+    padding: 5px;
+  }
+  #contact {
+    border-left: rgb(237, 204, 247) dashed 2px;
+    border-right: rgb(237, 204, 247) dashed 2px;
+    border-bottom: rgb(237, 204, 247) dashed 2px;
+  }
+}

@@ -81,8 +81,6 @@ nav button {
   background-color: #ff46b21f;
   padding: 0;
   border: none;
-}
-nav button a {
   display: block;
   padding: 10px;
   color: #ea8af7;
@@ -121,4 +119,15 @@ h3 {
 
 .txtBold {
   font-weight: bolder;
+}
+@media screen and (max-width: 880px) {
+
+  
+  nav {
+    background-color: #ff46b21f;
+  }
+  
+  nav button {
+    background-color: transparent;
+  }
 }

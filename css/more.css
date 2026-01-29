@@ -16,3 +16,11 @@
   grid-row: 1 / span 3;
 
 }
+
+@media screen and (max-width: 880px) {
+  .moreWelc{
+    border-left: rgb(237, 204, 247) dashed 2px;
+
+  }
+}
+

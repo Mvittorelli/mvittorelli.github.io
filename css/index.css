@@ -75,7 +75,10 @@ ul {
 .indexWelcBanner {
   padding: 10px;
   display: grid;
-  grid-template-columns: auto 1fr;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
 }
 
 .scolaire {
@@ -96,7 +99,7 @@ ul {
 .scolaire table td {
   grid-column: 2;
   border: rgb(237, 204, 247) dashed 2px;
-  padding: 20px;
+  padding: 5px;
 }
 
 #bottom {
@@ -107,6 +110,11 @@ ul {
   html {
     padding: 2vh !important;
   }
+
+  * {
+    word-wrap: break-word;
+  }
+
   #bottom {
     display: block;
   }
@@ -124,6 +132,7 @@ ul {
   header img {
     width: 100%;
   }
+
   body {
     display: flex;
     flex-direction: column;
@@ -148,4 +157,30 @@ ul {
     align-items: center;
     text-align: center;
   }
+  
+  .indexWelc ul {
+    padding: 0;
+  }
+  .indexWelc {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-left: rgb(237, 204, 247) dashed 2px;
+  }
+
+  .indexWelcBanner{
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+  }
+
+  .scolaire {
+    border-left: rgb(237, 204, 247) dashed 2px;
+  }
+
+  
+ 
 }
